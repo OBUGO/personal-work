@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+} 
+
+body  {
+    font-family: 'monsterrat',
+    sans-serif; 
+    background: green; 
+    color: white;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    width: 50%;
+   
+}
+.card1{
+    background: #321e1e;
+}
+.card2{
+    background: #4e3636;
+}
+.card3{
+    background: #cd1818;
+}
+.card{
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;     
+}
+img{
+    width: 120px;
+    border-radius: 10px;
+}
+button :hover{
+    background: #321e1e;
+    color: white; 
+}
+.card1:hover{
+    cursor: default;
+    background: white;
+    color: gold;
+}
+    .card2:hover{
+        cursor: default;
+        background: white;
+        color: #321e1e;
+        transition: 0.5s    
+
+    }
+    .card3:hover{
+        cursor: default;
+        background: white;
+        color: #321e1e;
+        transition: 0.5s;
+    }
+    .footer-one{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-wrapper{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 30px;
+    }
+    footer{
+        height: 45vh;
+        width: 100%;
+        background-color: #505050;
+    }
+@media (max-width: 450px) { 
+        
+    body {
+        background: rgb(12, 150, 46);
+        color: black;
+        transition: 0.5s;
+    } 
+    .container{
+    flex-direction:column;
+}
+}
+@media(min-width:450px) {
+    .container{
+        flex-direction:column;
+        
+}
+
+body{
+    background: blue;
+  }  
+} 
+    
+
+   
+        
+            
+        
+    
+            
+    
+ 
+
+
+
+    
+
+
+
